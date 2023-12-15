@@ -15,7 +15,7 @@ class SimpleCounterComponent extends Component {
         if(this.state.toggle){
             this.setState({count:this.state.count+1})
         }else {
-            this.setState({count:0})
+            this.setState({count:this.state.count})
         }
         
     }
